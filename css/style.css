@@ -1,0 +1,17 @@
+* {
+   margin: 0;
+   padding: 0;
+
+
+
+}
+body{
+
+   background-image: url('../img/webpage-cont.jpg');
+   background-repeat: no-repeat;
+   -webkit-background-size: cover;
+   background-size: cover;
+
+   height: 12000px;
+
+}
