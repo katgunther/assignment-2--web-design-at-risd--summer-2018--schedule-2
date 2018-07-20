@@ -1,28 +1,123 @@
 * {
    margin: 0;
    padding: 0;
-
-
-
 }
 
-p {
-font-size: 16px;
-  height: 800px;
-  width: 100%;
-  background-position: center;
-  overflow: hidden;
-  position: relative;
-}
 
 body{
 
-   background-image: url('../webpage-no-content.jpg');
-   background-repeat: no-repeat;
-   -webkit-background-size: cover;
-   background-size: cover;
+   background-color:#190000;
 
-   height: 12000px;
+}
+
+#image{
+
+ display: block;
+ position: absolute;
+ max-width: 100%;
+ height: auto;
+ margin-left:auto;
+ margin-right: auto;
+background-image: url("whirl1.png");
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+#image2{
+   display: block;
+   position: absolute;
+}
+
+
+h1 {
+font-family: 'Teko', sans-serif;
+font-size: 300px;
+color: rgba(224, 254, 238, .3);
+position: fixed;
+top: 100px;
+right: 400px;
+
+}
+
+h2{
+   font-family: 'Teko', sans-serif;
+   font-size: 30px;
+   color: rgba(224, 254, 238, .75);
+   letter-spacing: 100px;
+
+}
+
+   p {
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 16px;
+width: 300px;
+
+}
+
+
+
+
+#container {
+   font-family: 'Roboto Condensed', sans-serif;
+   position: absolute;
+   color: rgba(224, 254, 238, 1);
+   width: 300px;
+   height: 100px;
+   top: 200px;
+   left: 20px;
+   color: #ffffff;
+}
+
+#container2 {
+   background-color: rgba(40, 0, 0, .75);
+   color:#DAC6C2;
+   position: absolute;
+   width: 300px;
+   height: 1000px;
+   top: 800px;
+   left: 500px;
+
+
+}
+
+#container3 {
+   background-color: rgba(40, 0, 0, .75);
+   color:#DAC6C2;
+   position: absolute;
+   width: 300px;
+   height: 1500px;
+   top: 1500px;
+   left: 200px;
+}
+
+#container4 {
+   background-color: rgba(40, 0, 0, .75);
+   color:#DAC6C2;
+   position: absolute;
+   width: 300px;
+   height: 1200px;
+   top: 2000px;
+   left: 500px;
+}
+#container5 {
+   background-color: rgba(40, 0, 0, .75);
+   color:#DAC6C2;
+   position: absolute;
+   width: 300px;
+   height: 1500px;
+   top: 1000px;
+   right: 300px;
+}
+
+#container6 {
+   background-color: rgba(40, 0, 0, .75);
+   color:#DAC6C2;
+   position: absolute;
+   width: 300px;
+   height: 1500px;
+   top: 2000px;
+   left: -.5px;
+}
 
 
 /**
